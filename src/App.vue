@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main id="size" class="LayoutDefault">
+    <v-main class="LayoutDefault size">
       <router-view/>
     </v-main>
   </v-app>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style>
-   #size {
+   .size {
       padding-left: 0px !important;
       padding-right: 0px !important;
       padding-top: 0px !important;
