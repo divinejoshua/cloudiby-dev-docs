@@ -626,14 +626,14 @@
 <script>
 export default {
        metaInfo() {
-        return { 
+        return {
             title: "Home | Cloudiby Developer Documentation",
             meta: [
                 { name: 'description', content:  'Cloudiby is an online storage service which allows you store files and documents for free on the cloud.'},
                 { property: 'og:title', content: "Home | Cloudiby Developer Documentation"},
                 { property: 'og:site_name', content: 'Cloudiby'},
-                {property: 'og:type', content: 'website'},    
-                {name: 'robots', content: 'index,follow'} 
+                {property: 'og:type', content: 'website'},
+                {name: 'robots', content: 'index,follow'}
             ]
         }
     },
@@ -665,14 +665,7 @@ export default {
                 v => !!v || 'E-mail is required',
                 v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
             ],
-            links: [
-                'Home',
-                'About Us',
-                'Cloudiby Team',
-                'Services',
-                'Join Cloudiby',
-                'Contact Us',
-            ],
+            links: [],
             drawer: null,
             fab: false,
             auto_comp_loading: false,
